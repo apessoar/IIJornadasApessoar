@@ -827,19 +827,23 @@ footer p{
 
     }
 
+    
     #p6{
         margin-bottom: 0;
-        margin-left: 40px;
+        margin-left: 55px;
+        width: 55%;
     }
 
     #p7{
-        margin-bottom: 0;
+        margin-bottom: 30px;
         margin-left: 40px;
+        width: 60%;
     }
 
     #p8{
         margin-bottom: 0;
         margin-left: 40px;
+        width: 60%;
     }
 
     /*WORKSHOPS*/
