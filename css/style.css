@@ -1,0 +1,882 @@
+body{font-family: "Montserrat", sans-serif; margin: 0;font-size: 16px;background-color: #fff;}
+.flex-container{display:flex;}
+.space-between{justify-content: space-between;}
+.align-items{align-items: center;}
+*{box-sizing:border-box;}
+h1, h2, h3, h4, h5, figure, a, p{color: #83c271}
+a{font-weight: bolder; text-decoration: none;}
+article img{width: 100%; margin-top: 0%;}
+
+/*MENU*/ 
+
+nav{
+    padding:30px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-evenly;
+    height: 60px; 
+    font-size: x-large;  
+}
+
+.menu a:hover{
+    scale: 113%;
+}
+
+.menu img{
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+/*MENU MOBILE*/
+
+#hamburguer-icon{
+    margin-right: 20px;
+    padding-top: 20px;
+    display: none;
+    cursor: pointer;
+    justify-items: end;
+    color: #83c271;
+}
+
+#hamburguer-icon div{
+    width: 25px;
+    height: 2px;
+    background-color: white;
+    margin: 4px 0;
+    transition: 0.4s;
+    justify-content: end;
+}
+
+.menumobile{
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    display: none;
+}
+
+.menumobile a{
+    font-weight: 30;
+    font-size: 10px;
+}
+
+.menumobile li{
+    margin-bottom: 5px;
+}
+
+details[open]{
+    padding: 20px;
+    margin-bottom: 50px;
+}
+  
+details[open] summary{
+    margin-bottom: 50px;
+}
+
+
+/*HOMEPAGE*/ 
+
+/*header*/ 
+
+#local{
+    width: 4%;
+    margin: 0 5px;
+    margin-top: 20px;
+    margin-left: 102px;
+}
+
+#bigger{
+    font-weight: 700;
+    font-size: 30px;
+    color: #3c9e20;
+    margin-left: 102px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+#small{
+    font-weight: 500;
+    font-size: 25px;
+    color: #3c9e20;
+    margin-left: 102px;
+    text-decoration: underline;
+}
+
+/*intro*/ 
+
+.intro{
+margin-top: 150px;
+background-image: url(../img/campoflores.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: 45%;
+justify-items: center;
+}
+
+#introdiv{
+    padding-top: 80px;
+    padding-bottom: 30px;
+    width: 70%;
+}
+
+.intro1{
+    font-weight: 700;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#Jorn{
+    font-size: 40px;
+}
+
+#intro2{
+    font-weight: 500;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-bottom: 80px;
+    width: 60%;
+}
+
+/*direcionadas a*/ 
+
+.reviews{
+    text-align: center;
+    padding: 90px 0px;
+
+}
+
+.reviews h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 60px;
+}
+
+.reviews h4{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    line-height: 20px; 
+    font-size: 20px;
+    font-weight: 400;
+    color: #3c9e20;
+}
+
+.reviews img{max-width: 30%} 
+
+
+/*temática*/ 
+
+.tematica{
+    padding-bottom: 50px;
+}
+
+.tematica h2{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    margin-left: 102px;
+}
+
+.tematica h3{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-left: 102px;
+    width: 80%;
+}
+
+
+/*dinâmica*/ 
+
+.dinamica{
+    padding-top: 30px;
+    background-color: #83c271;
+    padding-bottom: 50px;
+    
+}
+
+.dinamica h2{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    margin-left: 102px;
+    color: #fff;
+}
+
+.dinamica h3{
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 102px;
+    width: 80%;
+    color: #fff;
+}
+
+.banner1 a{
+    background-color: white;
+    padding: 15px 30px;
+    display:inline-block;
+    margin-top:30px;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 20%; 
+    text-align: center;
+    margin-left: 102px;
+}
+
+.scale:hover{scale: 113%;}
+
+
+/*precario*/ 
+
+.precario{
+    padding-top: 60px;
+    padding-bottom: 20px;
+    
+}
+
+.precario h2{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    margin-left: 102px;
+}
+
+.precario h3{
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 102px;
+    width: 80%;
+
+}
+
+.banner2 a{
+    background-color: #83c271;
+    color: #fff;
+    padding: 15px 30px;
+    display:inline-block;
+    margin-top:30px;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 25%; 
+    text-align: center;
+    margin-left: 102px;
+}
+
+
+/*PROGRAMA*/ 
+
+.title{
+    width: 80%;
+    margin-left: 102px;
+    margin-bottom: 30px;
+}
+
+.program{
+    width: 22%;
+    display: inline-flex;
+}
+
+#p1{
+    margin-left: 102px;
+}
+
+#p5{
+    margin-left: 1100px;
+    display: block;
+}
+
+#work{
+    padding-top: 0;
+    padding-bottom: 100px;
+}
+
+#work h3{
+    margin-bottom: 7px;
+}
+
+#preco1{
+    background-color: #83c271;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+#preco1 h2{
+    color: #fff;
+}
+
+#preco1 h3{
+    color: #fff;
+}
+
+#preco1 a{
+    color: #83c271;
+    background-color: #fff;
+}
+
+
+/*WORKSHOPS*/ 
+
+.workshops{
+    margin-left: 0px;
+    margin-top: 0;
+    display: inline-flex;
+    margin-bottom: 80px;
+}
+
+.workshops img{
+    width: 30%;
+    margin-left: 43px;
+    margin-top: 0;
+}
+
+.workshops div{
+    width: 45%;
+    padding-top: 180px;
+    margin-left: 30px;
+}
+
+.workshops p{
+    color: #1f610c;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/*ORADORES*/ 
+
+.orador{
+    padding-bottom: 90px;
+}
+
+.orador div{
+    padding-top: 0;
+    width: 45%;
+}
+
+.orador h2{
+    color: #3c9e20;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+/*INSCRIÇÃO*/ 
+
+.preco{
+    width: 50%;
+    margin-left: 60px;
+}
+
+#ast{
+    margin-left: 102px;
+    font-size: 18px;
+    font-weight: 300;
+    color: #fff;
+    margin-top: 0;
+}
+
+#insc{
+    background-color: #83c271;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+#insc h2{
+    color: #fff;
+    font-size: 50px;
+}
+
+#insc h3{
+    color: #fff;
+}
+
+#pop{
+    color: #fff;
+    margin-left: 102px;
+    margin-top: 40px;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+#inscrito{
+    background-color: #fff;
+    color: #83c271;
+}
+
+/*FOOTER*/
+
+footer{
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 50px
+}
+
+footer p{
+    font-weight: 500;
+    color:  white;
+}
+
+.green{ 
+    background-color: #83c271;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.social img{
+    width: 4%;
+    margin: 0 5px;
+    margin-top: 10px;
+}
+    
+.footerinfo{
+    margin-bottom:15px;
+    line-height: 25px;
+    font-size: 20px;
+}
+
+.contact{
+    justify-items: center;
+    padding-bottom: 10px;
+}
+
+.contact img{
+    width: 10%;
+    margin: 0 5px;
+    margin-bottom: 0px;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.contact p{font-size: 18px;color: #83c271; margin-top:5px;}
+
+.contact h3{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    width: 70%;
+}
+
+.contact {margin-bottom: 90px;}
+
+
+
+
+
+/*COLUNAS*/
+
+.row{margin:10px; display: flex; flex-direction: row; justify-content: space-evenly;}
+.col{padding:0 15px;}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+.cards{margin: 30px auto 0 auto;}
+.card{margin-bottom: 10px;}
+.caracter{margin-bottom: 10px; position: relative;transition: 0.3s;overflow: hidden;}
+.caracter img{display: block;}
+
+
+@media all and (max-width:768px){
+
+    .mcol-1 {width: 8.33%;}
+    .mcol-2 {width: 16.66%;}
+    .mcol-3 {width: 25%;}
+    .mcol-4 {width: 33.33%;}
+    .mcol-5 {width: 41.66%;}
+    .mcol-6 {width: 50%;}
+    .mcol-7 {width: 58.33%;}
+    .mcol-8 {width: 66.66%;}
+    .mcol-9 {width: 75%;}
+    .mcol-10 {width: 83.33%;}
+    .mcol-11 {width: 91.66%;}
+    .mcol-12 {width: 100%;}
+}
+
+
+@media all and (max-width:480px){
+
+    .scol-1 {width: 8.33%;}
+    .scol-2 {width: 16.66%;}
+    .scol-3 {width: 25%;}
+    .scol-4 {width: 33.33%;}
+    .scol-5 {width: 41.66%;}
+    .scol-6 {width: 50%;}
+    .scol-7 {width: 58.33%;}
+    .scol-8 {width: 66.66%;}
+    .scol-9 {width: 75%;}
+    .scol-10 {width: 83.33%;}
+    .scol-11 {width: 91.66%;}
+    .scol-12 {width: 100%;}
+}
+
+
+@media only screen and (max-width:932px){
+
+    nav{display: none;}
+
+    body{
+        padding: 0;
+        margin: 0;
+    }
+
+    /*MENU MOBILE*/
+
+    #hamburguer-icon{
+        display: block;
+    }
+
+    .menumobile{
+        display: block;
+    }
+
+    .menumobile a{
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .menumobile li{
+        color: #fff;
+    }
+
+    .banner1{
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: fit-content;
+        margin-left: 0;
+        padding-left: 0;
+        justify-items: center;
+    }
+
+    .banner1 h2{
+        font-size: 30px;
+        line-height: 30px;
+        padding-bottom:20px;
+        padding-top: 0;
+    }
+
+    .banner1 p{
+        font-size: 15px;
+        line-height: 15px;
+        padding-bottom:15px;
+        max-width: 100%;
+    }
+
+    .banner1 h3{
+        font-size: 20px;
+        padding-bottom: 5px;
+    }
+
+    .banner1 a{
+        padding: 7px 15px;
+        margin-top:10px; 
+        font-size: 20px; 
+        width: 80%; 
+        align-items: center;
+        justify-items: center;
+        margin-left: 30px;
+    }
+
+    .banner2 a{
+        padding: 7px 15px;
+        margin-top:10px; 
+        font-size: 15px; 
+        width: 80%; 
+        align-items: center;
+        justify-items: center;
+        margin-left: 30px;
+    }
+
+
+    details{
+        width: 100%;
+    }
+    
+
+     /*HOMEPAGE*/
+
+     #home{
+        width: 100%;
+     }
+
+     #local{
+        margin-left: 40px;
+        margin-bottom: 0;
+        width: 20px;
+     }
+
+     #bigger{
+        margin-left: 40px;
+        font-size: 15px;
+        margin-bottom: 0;
+        margin-top: 10px;
+     }
+
+     #small{
+        margin-left: 40px;
+        font-size: 10px;
+     }
+
+    /*HOMEPAGE - intro*/
+
+    .intro{
+        margin-top: 40px;
+    }
+
+    #introdiv{
+        padding-top: 30px;
+    }
+
+    .intro1{
+        font-size: 15px;
+    }
+
+    #Jorn{
+        font-size: 20px;
+    }
+
+    #intro2{
+        font-size: 15px;
+        padding-bottom: 30px;
+        margin-top: 10px;
+    }
+
+    /*HOMEPAGE - reviews*/
+
+    .reviews{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .reviews h2{
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .col-3{width: fit-content;}
+
+    .product{
+        padding: 0;
+    }
+
+    .product h4{
+        font-size: 15px;
+    }
+
+
+    /*HOMEPAGE - tematica*/
+
+
+    .tematica h2{
+        font-size: 20px;
+        margin-top: 7px;
+        margin-left: 40px;
+    }
+
+    .tematica h3{
+        font-size: 15px;
+        margin-left: 40px;
+        width: 80%;
+    }
+
+    .dinamica h2{
+        font-size: 20px;
+        margin-top: 7px;
+        margin-left: 40px;
+    }
+
+    .dinamica h3{
+        font-size: 15px;
+        margin-left: 40px;
+        width: 80%;
+    }
+
+    .precario h2{
+        font-size: 20px;
+        margin-top: 7px;
+        margin-left: 40px;
+    }
+
+    .precario h3{
+        font-size: 15px;
+        margin-left: 40px;
+        width: 80%;
+    }
+
+
+
+    /*FOOTER*/
+
+    footer{margin-top: 20px;}
+    .social img{
+        width: 10%;
+    }
+
+    .contact h3{
+        font-size: 15px;
+    }
+
+    .contact p{
+        font-size: 15px;
+    }
+
+    .contact img{
+        width: 8%;
+        margin-top: 10px;
+    }
+
+    .contact{
+        margin-bottom: 10px;
+    }
+
+    .footerinfo p{
+        font-size: 15px;
+    }
+
+    /*PROGRAMA*/
+    .program{
+    width: 30%;
+    display: block;
+    margin-left: 102px;
+    margin-bottom: 50px;
+    }
+
+    .program1{
+    width: 30%;
+    display: block;
+    margin-left: 102px;
+    margin-bottom: 5px;
+    }
+
+    .program2{
+    width: 30%;
+    display: block;
+    margin-left: 102px;
+    margin-bottom: 0px;
+    }
+
+
+
+    .title{
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .program{
+        display: block;
+        width: 70%;
+        margin-bottom: 50px;
+    }
+
+    #p1{
+        margin-left: 40px;
+    }
+
+    #p2{
+        margin-left: 40px;
+    }
+    #p3{
+        margin-left: 40px;
+        margin-bottom: 5px;
+    }
+    #p4{
+        margin-left: 40px;
+        margin-bottom: 0px;
+    }
+
+    #p5{
+        margin-left: 40px;
+
+    }
+
+    #p6{
+        margin-bottom: 0;
+        margin-left: 40px;
+    }
+
+    #p7{
+        margin-bottom: 0;
+        margin-left: 40px;
+    }
+
+    #p8{
+        margin-bottom: 0;
+        margin-left: 40px;
+    }
+
+    /*WORKSHOPS*/
+
+    .workshops{
+        display: block;
+    }
+
+    .workshops img{
+        width: 90%;
+        margin-left: 0;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .workshops div{
+        width: 80%;
+        margin-left: 25px;
+        margin-top: 0;
+        padding-top: 0;
+        margin-bottom: 50px;
+    }
+
+    .workshops p{
+        font-size: 15px;
+    }
+
+    /*INSCRIÇÕES*/
+
+    #insc{
+        padding-top:20px ;
+        padding-bottom: 30px;
+    }
+
+    #insc h2{
+        font-size: 30px;
+        margin-left: 40px;
+    }
+
+    #ast{
+        margin-left: 40px;
+        font-size: 12px;
+        width: 70%;
+    }
+
+    #pop{
+        font-size: 20px;
+        margin-left: 40px;
+        margin-top: 40px;
+    }
+
+    .preco{
+        width: 99%;
+        margin-left: 0;
+    }
+}
